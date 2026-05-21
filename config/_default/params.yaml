@@ -13,19 +13,21 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Your Name"
+    name: "The Embedded Score"
     # Legal entity for copyright notices (defaults to name if not set)
     organization: ""
     # Schema.org type for structured data
     type: person # person | organization | local_business
     # Short tagline displayed on your site
-    tagline: ""
+    # A concise tagline summarizing the blog. Appears in metadata and some templates.
+    tagline: "Notes on hardware, firmware, applied ML, and the orchestration of real‑world embedded systems."
     # Site meta description for search engines and social sharing
-    description: "The highly-customizable Hugo Academic theme powered by HugoBlox
-      Kit. Easily create your personal academic website."
+    # Meta description used by search engines and social cards. Expand on the tagline.
+    description: "Personal notes on hardware, firmware, signals, circuits, applied ML and the orchestration of real‑world embedded systems—covering experiences, wins, losses, and other fun aspects of electronics."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
-      twitter: "GoOwnable" # Twitter/X handle for Twitter Cards (without @)
+      twitter: "mardelmariam" # Twitter/X handle for Twitter Cards (without @)
+      instagram: "mardelmariam"
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
@@ -127,8 +129,9 @@ hugoblox:
   # Search engine optimization - overrides and technical settings
   # ────────────────────────────────────────────────────────────────────────────
   seo:
-    # Browser tab title override (defaults to identity.name if not set)
-    title: ""
+    # Browser tab title override (defaults to identity.name if not set).
+    # A custom title can improve search results and social previews.
+    title: "The Embedded Score – Embedded Systems Notes"
     # For local_business identity type only
     location:
       address:
@@ -146,8 +149,12 @@ hugoblox:
       allow:
         - /
       disallow: []
-      note: "Guidance for AI crawlers - customize to match your public content."
-      contact: ""
+      # Describe your site succinctly for AI agents and crawlers. This text can
+      # help LLMs quickly understand the scope of your public content.
+      note: "This is a personal technical blog covering embedded systems, including hardware, firmware, signals, circuits, instrumentation, sensors, applied machine learning, and the orchestration of real‑world systems. It contains detailed notes, use cases, experiences, wins, losses, and other fun stories about electronics and engineering."
+      # Provide a point of contact for AI systems and site operators. This could be
+      # a contact page or a social profile.
+      contact: "https://www.linkedin.com/in/mdelmarcorrea"
 
   # ────────────────────────────────────────────────────────────────────────────
   # CONTENT

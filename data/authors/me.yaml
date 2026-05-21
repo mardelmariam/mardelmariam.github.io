@@ -8,12 +8,12 @@ name:
   pronouns: she/her
 
 status:
-  icon: "🎛️"
+  icon: "🛠️"
 
 role: Freelance Embedded Systems Engineer
 
 bio: |
-  I help companies and technical teams design reliable embedded systems at the intersection of PCB design, firmware, embedded software, and applied ML.<br><br>
+  Notes on hardware, firmware, applied ML, and the orchestration of real-world embedded systems.<br><br>
   I'm interested in:<br>
   • Firmware and embedded software development<br>
   • Instrumentation and sensor systems<br>
@@ -23,22 +23,18 @@ bio: |
   • Applied ML and computer vision at the edge
 
 links:
-  - icon: at-symbol
-    url: mailto:your-email@example.com
-    label: E-mail Me
-
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/YOUR-LINKEDIN-SLUG/
-    label: LinkedIn
-
   - icon: brands/github
-    url: https://github.com/YOUR-GITHUB-USERNAME
+    url: https://github.com/mardelmariam
     label: GitHub
 
-  - icon: academicons/cv
-    url: uploads/resume.pdf
-    label: Download my CV
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/mdelmarcorrea
+    label: LinkedIn
+  
+  - icon: brands/instagram
+    url: https://instagram.com/mardelmariam
+    label: Instagram
 
-  - icon: rss
-    url: ./blog/index.xml
-    label: Subscribe to my blog via RSS feed
+  - icon: brands/x
+    url: https://x.com/mardelmariam
+    label: X
