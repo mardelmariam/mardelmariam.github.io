@@ -7,7 +7,7 @@ authors:
 tags:
   - Hardware development
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
+  caption: 'Image credit: [**Me**]'
 ---
 
 Maintaining stable DC voltages in modern electronic devices is a foundational challenge in embedded systems. Even slight fluctuations in the power supply can compromise performance, leading to data corruption, timing errors, or outright failure. These fluctuations, collectively known as voltage ripple, must be meticulously analyzed to ensure the robustness and reliability of a hardware design.
