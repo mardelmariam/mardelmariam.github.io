@@ -9,7 +9,7 @@ tags:
   - Nordic microcontrollers
   - Communication protocols
 image:
-  caption: 'Image credit: [**Generated with ChatGPT**]'
+  caption: 'Image credit: [**Me**]'
 ---
 
 *A hardware-first introduction to Zephyr SPI bring-up, focused on the definitions that must be correct before a device can respond.*
@@ -227,7 +227,7 @@ In practice, when using frequencies above 8 MHz, pay attention to the selected S
 
 `spi3` / `SPIM3` is commonly the instance used when higher SPI speeds are needed on nRF52840.
 
-However, do not start bring-up at the maximum frequency. First probe the bus at a slow frequency, then increase speed only after identity reads and signal quality are stable.
+However, don't start bring-up at the maximum frequency. First probe the bus at a slow frequency, then increase speed only after identity reads and signal quality are stable.
 
 ---
 
@@ -552,7 +552,7 @@ CONFIG_PINCTRL=y
 CONFIG_LOG=y
 ```
 
-When you create a real Zephyr driver for a device such as the ADPD4100, add a driver-specific Kconfig symbol, for example:
+When you create a real Zephyr driver for a device, add a driver-specific Kconfig symbol, for example:
 
 ```
 CONFIG_DEVICE3=y
